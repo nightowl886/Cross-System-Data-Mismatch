@@ -10,7 +10,7 @@ A user record was missing from the roster despite having a valid confirmation ID
 ## 3. Trigger Points  
 - Roster not synchronized with registration system  
 - Customer support failed to use ID to locate the profile
-- Repeated call transfers without effective triage.
+- Repeated call transfers without effective triage
 - On-site staff relied solely on roster
 
 ## 4. Risk Type  
