@@ -1,0 +1,32 @@
+# ⭐ A3.Expanded Trigger Points: Customer Support Lookup Failure
+
+3. Trigger Points
+## A. Roster not synchronized with registration system
+- Backend systems showed valid clinical and written exams, but roster did not reflect the candidate.
+
+- No automated alert for “exam exists but roster missing.”
+
+- Roster refresh or sync mechanism failed or lagged.
+
+## B. Customer support failed to use ID lookup
+
+- No ID-first triage — Support agents did not use the candidate ID as the primary lookup key.
+
+- Repeated problem descriptions — Each transfer required the nurse to re-explain the issue, indicating no case context retention.
+
+- Unnecessary transfers — Calls were repeatedly routed without any diagnostic steps or ownership.
+
+- Irrelevant questioning — One agent asked for the physical location of the test center, showing lack of understanding of the issue and no access to the correct systems.
+
+- No unified candidate profile — Support agents lacked a single source of truth combining registration, eligibility, roster, and exam delivery data.
+
+- Knowledge base gap — Agents did not know how to diagnose roster mismatches or what information mattered.
+
+- Workflow fragmentation — No clear routing logic, escalation criteria, or triage protocol.
+
+## C. On-site staff relied solely on roster
+- Staff assumed roster was the authoritative source and did not attempt ID-based verification until late.
+
+- No multi-source validation checklist (ID → registration → exam delivery).
+
+- Over-reliance on a single data source created avoidable delays and escalations.
