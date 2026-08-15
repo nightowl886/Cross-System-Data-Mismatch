@@ -36,10 +36,12 @@ If not resolved, this issue could lead to:
 - On-site process over-relies on roster as the only verification source.
 
 
-## 7. Controls  
-- ID-first verification workflow  
-- Multi-source validation checklist  
-- Automated mismatch alerts  
+## 7. Control Recommendations
+- Implement ID-first verification workflow in operational environments  
+- Add cross-system validation when local entries are missing  
+- Create automated alerts for mismatched entity states  
+- Improve support triage using ID-based lookup  
+- Add a multi-source verification checklist to frontline procedures  
 
 ## 8. Lessons Learned  
 - Local access lists are not authoritative — Backend systems may contain valid records even if local rosters or operational lists do not.
