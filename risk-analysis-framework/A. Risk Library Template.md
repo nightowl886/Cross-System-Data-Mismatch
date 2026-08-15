@@ -14,15 +14,19 @@ A user record was missing from the roster despite having a valid confirmation ID
 - On-site staff relied solely on roster
 
 ## 4. Risk Type  
-- Data synchronization risk  
-- Operational workflow risk  
-- Identity verification risk  
+- System Data synchronization risk  
+- Operational process risk  
+- Identity verification risk
+- Customer support workflow risk
+- Candidate identity verification risk
+- Cross-system integrity risk
 
 ## 5. Impact  
+If not resolved, this issue could lead to:
 - Candidate unable to test  
-- Escalation to incident report  
-- Increased support workload  
-- Reputation risk for test center  
+- Delays and escalation to incident report  
+- Increased customer support workload  
+- Reputation risk for test center
 
 ## 6. Root Cause  
 - Lack of single source of truth  
