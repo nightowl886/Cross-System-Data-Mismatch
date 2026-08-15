@@ -29,9 +29,12 @@ If not resolved, this issue could lead to:
 - Reputation risk for test center
 
 ## 6. Root Cause  
-- Lack of single source of truth  
+- No unified user profile view (Lack of a single source of truth) 
 - No automated detection for roster mismatch  
-- Customer support workflow gaps  
+- Customer support workflow lacks ID-based triage
+- Registration system and roster system are not synchronized.
+- On-site process over-relies on roster as the only verification source.
+
 
 ## 7. Controls  
 - ID-first verification workflow  
@@ -39,4 +42,9 @@ If not resolved, this issue could lead to:
 - Automated mismatch alerts  
 
 ## 8. Lessons Learned  
-Roster is not authoritative; ID is the most reliable identifier.
+- Local access lists are not authoritative — Backend systems may contain valid records even if local rosters or operational lists do not.
+- Unique identifiers are the most reliable key — Always prioritize ID-based lookup over list-only checks.
+- Support workflows must retain case context — Repeated transfers without triage or context retention increase resolution time.
+- Operational lists may change close to execution day — Lists are often published several days in advance, but late modifications can occur. If staff download early and do not re-check, they may miss updates.
+- No notification mechanism for last-minute changes — Frontline staff are not automatically informed of list modifications. Without proactive checks, they risk working with outdated information.
+- Multi-source validation is essential — Staff should cross-check IDs, registration records, and backend systems rather than relying solely on a single list.
