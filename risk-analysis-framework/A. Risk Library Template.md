@@ -4,7 +4,8 @@
 Cross-System Data Mismatch (Roster vs Registration)
 
 ## 2. Event Description  
-Candidate not listed on test center roster despite having a valid confirmation number and ID. Backend systems showed both clinical and written exams scheduled.
+A user record was missing from the roster despite having a valid confirmation ID. Multiple support interactions failed to resolve the issue due to repeated transfers and lack of effective triage. Eventually, it was discovered that the user’s unique ID was available, and upon lookup, the system showed valid scheduled activities. This indicates a cross-system synchronization failure where backend records existed but were not reflected in the operational roster.
+
 
 ## 3. Trigger Points  
 - Roster not synchronized with registration system  
