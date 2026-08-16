@@ -21,7 +21,7 @@ A user record was missing from the roster despite having a valid confirmation ID
 - Candidate identity verification risk
 - Cross-system integrity risk
 
-## 5. Impact  
+## 5. Impact Assessment
 If not resolved, this issue could lead to:
 - Candidate unable to test  
 - Delays and escalation to incident report  
